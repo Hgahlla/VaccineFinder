@@ -1,0 +1,1362 @@
+{
+  "locations": [
+    {
+      "city": "ABILENE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.44645,
+      "longitude": -99.7475905
+    },
+    {
+      "city": "ADDISON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.9604305,
+      "longitude": -96.83025951893629
+    },
+    {
+      "city": "ALICE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 27.7522487,
+      "longitude": -98.0697249
+    },
+    {
+      "city": "ALLEN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.1031744,
+      "longitude": -96.6705503
+    },
+    {
+      "city": "ALTON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 26.2871093,
+      "longitude": -98.3136913
+    },
+    {
+      "city": "ALVARADO",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.4095565,
+      "longitude": -97.21028810404624
+    },
+    {
+      "city": "AMARILLO",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 35.2072185,
+      "longitude": -101.8338246
+    },
+    {
+      "city": "ANGLETON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.16941,
+      "longitude": -95.4318847
+    },
+    {
+      "city": "ARANSAS PASS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 27.909666,
+      "longitude": -97.1503865
+    },
+    {
+      "city": "ARLINGTON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.701938999999996,
+      "longitude": -97.10562379033699
+    },
+    {
+      "city": "ATHENS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.2044416,
+      "longitude": -95.854914
+    },
+    {
+      "city": "ATLANTA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.1162131,
+      "longitude": -94.1663493
+    },
+    {
+      "city": "AUSTIN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.2711286,
+      "longitude": -97.7436995
+    },
+    {
+      "city": "BALCH SPRINGS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.7287413,
+      "longitude": -96.6227714
+    },
+    {
+      "city": "BALCONES HEIGHTS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.489573,
+      "longitude": -98.5501765
+    },
+    {
+      "city": "BANDERA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.7643475,
+      "longitude": -99.234526
+    },
+    {
+      "city": "BAY CITY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 28.9827565,
+      "longitude": -95.969402
+    },
+    {
+      "city": "BAYTOWN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.7355047,
+      "longitude": -94.9774274
+    },
+    {
+      "city": "BEAUMONT",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.0860459,
+      "longitude": -94.1018461
+    },
+    {
+      "city": "BEDFORD",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.844017,
+      "longitude": -97.1430671
+    },
+    {
+      "city": "BEE CAVE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.3085373,
+      "longitude": -97.94501
+    },
+    {
+      "city": "BEVERLY HILLS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 31.5215557,
+      "longitude": -97.1538919
+    },
+    {
+      "city": "BORGER",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 35.6678204,
+      "longitude": -101.3973876
+    },
+    {
+      "city": "BOWIE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.4198886,
+      "longitude": -94.4479626
+    },
+    {
+      "city": "BRECKENRIDGE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.7558392,
+      "longitude": -98.9032554
+    },
+    {
+      "city": "BROWNSVILLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 25.9140256,
+      "longitude": -97.4890856
+    },
+    {
+      "city": "BRYAN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.6743643,
+      "longitude": -96.3699632
+    },
+    {
+      "city": "CAMERON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 26.1291189,
+      "longitude": -97.4134281
+    },
+    {
+      "city": "CANTON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.555664,
+      "longitude": -95.8640507
+    },
+    {
+      "city": "CANYON LAKE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.8643185,
+      "longitude": -98.2437802
+    },
+    {
+      "city": "CARROLLTON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.9537349,
+      "longitude": -96.8902816
+    },
+    {
+      "city": "CEDAR HILL",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.5888072,
+      "longitude": -96.9553675
+    },
+    {
+      "city": "CEDAR PARK",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.5217116,
+      "longitude": -97.827833
+    },
+    {
+      "city": "CELINA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.3238976,
+      "longitude": -96.785342
+    },
+    {
+      "city": "CENTER",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 31.7954512,
+      "longitude": -94.1790862
+    },
+    {
+      "city": "CHANNELVIEW",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.7760599,
+      "longitude": -95.1146533
+    },
+    {
+      "city": "CIBOLO",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5707831,
+      "longitude": -98.2330927
+    },
+    {
+      "city": "CLEAR LAKE SHORES",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.547452,
+      "longitude": -95.0321506
+    },
+    {
+      "city": "CLEBURNE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.3476438,
+      "longitude": -97.3866837
+    },
+    {
+      "city": "CLEVELAND",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.3417711,
+      "longitude": -95.0854786
+    },
+    {
+      "city": "COLLEGE STATION",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.5955289,
+      "longitude": -96.3071042
+    },
+    {
+      "city": "COMMERCE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.2442615,
+      "longitude": -95.9006353
+    },
+    {
+      "city": "CONROE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.3118769,
+      "longitude": -95.4560512
+    },
+    {
+      "city": "CONVERSE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5180081,
+      "longitude": -98.3161241
+    },
+    {
+      "city": "COPPELL",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.9552598,
+      "longitude": -97.0155703
+    },
+    {
+      "city": "CORINTH",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.1540091,
+      "longitude": -97.0647322
+    },
+    {
+      "city": "CORPUS CHRISTI",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 27.7477253,
+      "longitude": -97.4014129
+    },
+    {
+      "city": "CORSICANA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.091299,
+      "longitude": -96.4646821
+    },
+    {
+      "city": "CROWLEY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.5782835,
+      "longitude": -97.3609829
+    },
+    {
+      "city": "CYPRESS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.9691116,
+      "longitude": -95.6971686
+    },
+    {
+      "city": "DALLAS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.7762719,
+      "longitude": -96.7968559
+    },
+    {
+      "city": "DECATUR",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.2342834,
+      "longitude": -97.5861393
+    },
+    {
+      "city": "DENISON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.7556593,
+      "longitude": -96.536658
+    },
+    {
+      "city": "DENTON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.1838787,
+      "longitude": -97.1413417
+    },
+    {
+      "city": "DICKINSON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.4607876,
+      "longitude": -95.0513173
+    },
+    {
+      "city": "DONNA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 26.1702082,
+      "longitude": -98.0522376
+    },
+    {
+      "city": "DUNCANVILLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.6518004,
+      "longitude": -96.9083366
+    },
+    {
+      "city": "EDINBURG",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 26.3013982,
+      "longitude": -98.1624501
+    },
+    {
+      "city": "EL PASO",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 31.7754152,
+      "longitude": -106.464634
+    },
+    {
+      "city": "ELGIN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.349351,
+      "longitude": -97.3705762
+    },
+    {
+      "city": "ELSA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 26.2966228,
+      "longitude": -97.9931057
+    },
+    {
+      "city": "ENNIS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.3293111,
+      "longitude": -96.6252679
+    },
+    {
+      "city": "EULESS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.8457865,
+      "longitude": -97.0667142473263
+    },
+    {
+      "city": "FARMERS BRANCH",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.9265137,
+      "longitude": -96.8961151
+    },
+    {
+      "city": "FLORESVILLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.1335781,
+      "longitude": -98.1561192
+    },
+    {
+      "city": "FOREST HILL",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.6720778,
+      "longitude": -97.2691812
+    },
+    {
+      "city": "FORNEY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.747893,
+      "longitude": -96.4719289
+    },
+    {
+      "city": "FORT WORTH",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.753177,
+      "longitude": -97.3327459
+    },
+    {
+      "city": "FREEPORT",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 28.9541368,
+      "longitude": -95.3596617
+    },
+    {
+      "city": "FRIENDSWOOD",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5293998,
+      "longitude": -95.2010447
+    },
+    {
+      "city": "FRISCO",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.1506744,
+      "longitude": -96.8236116
+    },
+    {
+      "city": "GAINESVILLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.6259414,
+      "longitude": -97.1333453
+    },
+    {
+      "city": "GALVESTON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.3872254,
+      "longitude": -94.992736
+    },
+    {
+      "city": "GARLAND",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.912624,
+      "longitude": -96.6388833
+    },
+    {
+      "city": "GEORGETOWN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.671598,
+      "longitude": -97.65500660120435
+    },
+    {
+      "city": "GLADEWATER",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.5365333,
+      "longitude": -94.9427169
+    },
+    {
+      "city": "GRANBURY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.4407788,
+      "longitude": -97.7926088
+    },
+    {
+      "city": "GRAND PRAIRIE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.657368000000005,
+      "longitude": -97.02846624175038
+    },
+    {
+      "city": "GRAPEVINE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.9337381,
+      "longitude": -97.0788754
+    },
+    {
+      "city": "GREENVILLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.1384488,
+      "longitude": -96.1108066
+    },
+    {
+      "city": "HARLINGEN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 26.1908241,
+      "longitude": -97.6959794
+    },
+    {
+      "city": "HEATH",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.8445305,
+      "longitude": -96.47184564700122
+    },
+    {
+      "city": "HOUSTON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.7589382,
+      "longitude": -95.3676974
+    },
+    {
+      "city": "HUMBLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.9988312,
+      "longitude": -95.2621553
+    },
+    {
+      "city": "HUNTSVILLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.7235263,
+      "longitude": -95.5507771
+    },
+    {
+      "city": "HURST",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.8234621,
+      "longitude": -97.1705678
+    },
+    {
+      "city": "HUTTO",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.5427638,
+      "longitude": -97.5468898
+    },
+    {
+      "city": "IRVING",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.8295183,
+      "longitude": -96.9442177
+    },
+    {
+      "city": "JACINTO CITY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.7673433,
+      "longitude": -95.2336723
+    },
+    {
+      "city": "JACKSONVILLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 31.963778,
+      "longitude": -95.2705042
+    },
+    {
+      "city": "KATY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.7857853,
+      "longitude": -95.8243956
+    },
+    {
+      "city": "KELLER",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.9299655,
+      "longitude": -97.2271249
+    },
+    {
+      "city": "KILGORE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.399730399999996,
+      "longitude": -94.86460773852411
+    },
+    {
+      "city": "KILLEEN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 31.1171441,
+      "longitude": -97.727796
+    },
+    {
+      "city": "KINGSVILLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 27.5158689,
+      "longitude": -97.856109
+    },
+    {
+      "city": "KYLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.9892816,
+      "longitude": -97.877174
+    },
+    {
+      "city": "LA MARQUE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.3685674,
+      "longitude": -94.9713134
+    },
+    {
+      "city": "LA PORTE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.6657838,
+      "longitude": -95.0193729
+    },
+    {
+      "city": "LAKE JACKSON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.0338575,
+      "longitude": -95.4343859
+    },
+    {
+      "city": "LAKE WORTH",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.8048507,
+      "longitude": -97.44502
+    },
+    {
+      "city": "LAKEWAY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.3644888,
+      "longitude": -97.9875325
+    },
+    {
+      "city": "LAMESA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.7357287,
+      "longitude": -101.9550202
+    },
+    {
+      "city": "LAREDO",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 27.5199841,
+      "longitude": -99.4953764
+    },
+    {
+      "city": "LEAGUE CITY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5074538,
+      "longitude": -95.0949303
+    },
+    {
+      "city": "LEWISVILLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.046233,
+      "longitude": -96.994174
+    },
+    {
+      "city": "LIBERTY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.0856736,
+      "longitude": -94.7856262
+    },
+    {
+      "city": "LIVINGSTON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.711029,
+      "longitude": -94.9329898
+    },
+    {
+      "city": "LONGVIEW",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.5007031,
+      "longitude": -94.74049
+    },
+    {
+      "city": "LUBBOCK",
+      "state": "TX",
+      "status": "Available",
+      "latitude": 33.5635206,
+      "longitude": -101.879336
+    },
+    {
+      "city": "LUFKIN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 31.3386242,
+      "longitude": -94.7288558
+    },
+    {
+      "city": "MANSFIELD",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.5631924,
+      "longitude": -97.1416768
+    },
+    {
+      "city": "MANVEL",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.4664706,
+      "longitude": -95.355714
+    },
+    {
+      "city": "MARBLE FALLS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.5781414,
+      "longitude": -98.2753857
+    },
+    {
+      "city": "MARSHALL",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.5447756,
+      "longitude": -94.3661004
+    },
+    {
+      "city": "MATHIS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 28.0942916,
+      "longitude": -97.8274111
+    },
+    {
+      "city": "MCALLEN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 26.2043691,
+      "longitude": -98.230082
+    },
+    {
+      "city": "MCKINNEY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.1976496,
+      "longitude": -96.6154471
+    },
+    {
+      "city": "MESQUITE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.7666103,
+      "longitude": -96.599472
+    },
+    {
+      "city": "MIDLAND",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 31.83688,
+      "longitude": -102.0103767
+    },
+    {
+      "city": "MINEOLA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.6633387,
+      "longitude": -95.4880308
+    },
+    {
+      "city": "MINERAL WELLS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.8084605,
+      "longitude": -98.1128223
+    },
+    {
+      "city": "MISSION",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 26.2159066,
+      "longitude": -98.3252932
+    },
+    {
+      "city": "MISSOURI CITY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.6185669,
+      "longitude": -95.5377215
+    },
+    {
+      "city": "MONTGOMERY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.301949,
+      "longitude": -95.5065944
+    },
+    {
+      "city": "MURPHY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.0151208,
+      "longitude": -96.6130478
+    },
+    {
+      "city": "NASSAU BAY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5446753,
+      "longitude": -95.0910413
+    },
+    {
+      "city": "NEW BRAUNFELS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.7028266,
+      "longitude": -98.1257348
+    },
+    {
+      "city": "NORTH RICHLAND HILLS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.8342952,
+      "longitude": -97.2289029
+    },
+    {
+      "city": "ODESSA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 31.8457149,
+      "longitude": -102.367687
+    },
+    {
+      "city": "ORANGE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.1228634,
+      "longitude": -93.9041169
+    },
+    {
+      "city": "PALESTINE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 31.7621153,
+      "longitude": -95.6307891
+    },
+    {
+      "city": "PARIS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.6617962,
+      "longitude": -95.555513
+    },
+    {
+      "city": "PASADENA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.6910625,
+      "longitude": -95.2091006
+    },
+    {
+      "city": "PEARLAND",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5639758,
+      "longitude": -95.2864299
+    },
+    {
+      "city": "PFLUGERVILLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.4393696,
+      "longitude": -97.6200043
+    },
+    {
+      "city": "PHARR",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 26.1947962,
+      "longitude": -98.1836216
+    },
+    {
+      "city": "PLANO",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.0136764,
+      "longitude": -96.6925096
+    },
+    {
+      "city": "PORT ARANSAS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 27.8332175,
+      "longitude": -97.0618324
+    },
+    {
+      "city": "PORT ARTHUR",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.8988618,
+      "longitude": -93.9288723
+    },
+    {
+      "city": "PORTER",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.1024397,
+      "longitude": -95.2296553
+    },
+    {
+      "city": "PRINCETON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.1801161,
+      "longitude": -96.4980424
+    },
+    {
+      "city": "RED OAK",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.5117104,
+      "longitude": -96.80836332870047
+    },
+    {
+      "city": "RICHARDSON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.9481789,
+      "longitude": -96.7297206
+    },
+    {
+      "city": "RICHLAND HILLS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.8159623,
+      "longitude": -97.2280695
+    },
+    {
+      "city": "RICHMOND",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5821811,
+      "longitude": -95.7607832
+    },
+    {
+      "city": "RIVER OAKS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.7770737,
+      "longitude": -97.394463
+    },
+    {
+      "city": "ROANOKE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.0040126,
+      "longitude": -97.2258483
+    },
+    {
+      "city": "ROBSTOWN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 27.7903032,
+      "longitude": -97.6688843
+    },
+    {
+      "city": "ROCKPORT",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 28.0205733,
+      "longitude": -97.0544341
+    },
+    {
+      "city": "ROCKWALL",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.8923464,
+      "longitude": -96.4066987
+    },
+    {
+      "city": "ROSENBERG",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5571825,
+      "longitude": -95.8085623
+    },
+    {
+      "city": "ROSHARON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.3521203,
+      "longitude": -95.460341
+    },
+    {
+      "city": "ROUND ROCK",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.508235,
+      "longitude": -97.6788934
+    },
+    {
+      "city": "ROWLETT",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.9029017,
+      "longitude": -96.56388
+    },
+    {
+      "city": "SAN ANGELO",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 31.4648357,
+      "longitude": -100.4398442
+    },
+    {
+      "city": "SAN ANTONIO",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.4246002,
+      "longitude": -98.4951405
+    },
+    {
+      "city": "SAN JUAN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 26.1892409,
+      "longitude": -98.1552872
+    },
+    {
+      "city": "SAN MARCOS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.8826436,
+      "longitude": -97.9405828
+    },
+    {
+      "city": "SCHERTZ",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5641617,
+      "longitude": -98.2695702
+    },
+    {
+      "city": "SEABROOK",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5633199,
+      "longitude": -95.019723
+    },
+    {
+      "city": "SELMA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5848923,
+      "longitude": -98.305779
+    },
+    {
+      "city": "SEMINOLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.7189926,
+      "longitude": -102.6449101
+    },
+    {
+      "city": "SHERMAN",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 36.2452294,
+      "longitude": -101.8858689
+    },
+    {
+      "city": "SILSBEE",
+      "state": "TX",
+      "status": "Available",
+      "latitude": 30.3490978,
+      "longitude": -94.1779626
+    },
+    {
+      "city": "SNYDER",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.7180803,
+      "longitude": -100.9182313
+    },
+    {
+      "city": "SOUTH PADRE ISLAND",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 26.1036887,
+      "longitude": -97.1646938
+    },
+    {
+      "city": "SOUTHLAKE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.9412363,
+      "longitude": -97.1341783
+    },
+    {
+      "city": "SPRING",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.0798826,
+      "longitude": -95.4172549
+    },
+    {
+      "city": "STEPHENVILLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.2191836,
+      "longitude": -98.2130634
+    },
+    {
+      "city": "SUGAR LAND",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.6196787,
+      "longitude": -95.6349463
+    },
+    {
+      "city": "SULPHUR SPRINGS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.1384886,
+      "longitude": -95.6010143
+    },
+    {
+      "city": "SUNNYVALE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.7965165,
+      "longitude": -96.5608242
+    },
+    {
+      "city": "TAYLOR",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.2793121,
+      "longitude": -99.8812612
+    },
+    {
+      "city": "TEMPLE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 31.098207,
+      "longitude": -97.3427847
+    },
+    {
+      "city": "TEXARKANA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.44628645,
+      "longitude": -94.07638067493534
+    },
+    {
+      "city": "THE COLONY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.0890094,
+      "longitude": -96.8863922
+    },
+    {
+      "city": "THE WOODLANDS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.1734194,
+      "longitude": -95.504686
+    },
+    {
+      "city": "TOMBALL",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.0971621,
+      "longitude": -95.6160549
+    },
+    {
+      "city": "TYLER",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.7563939,
+      "longitude": -94.3984613
+    },
+    {
+      "city": "UNIVERSAL CITY",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5480071,
+      "longitude": -98.2911235
+    },
+    {
+      "city": "VICTORIA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 28.8026443,
+      "longitude": -96.9766308
+    },
+    {
+      "city": "VIDOR",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 30.1316001,
+      "longitude": -94.0154542
+    },
+    {
+      "city": "WACO",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 31.549333,
+      "longitude": -97.1466695
+    },
+    {
+      "city": "WALLER",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.9443902,
+      "longitude": -95.9955885
+    },
+    {
+      "city": "WATAUGA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.8579056,
+      "longitude": -97.2547371
+    },
+    {
+      "city": "WAXAHACHIE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.3944908,
+      "longitude": -96.8439365
+    },
+    {
+      "city": "WEATHERFORD",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.7589648,
+      "longitude": -97.7970748
+    },
+    {
+      "city": "WEBSTER",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.5351724,
+      "longitude": -95.1161564
+    },
+    {
+      "city": "WEST COLUMBIA",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.1438582,
+      "longitude": -95.6452249
+    },
+    {
+      "city": "WESTLAKE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.991226,
+      "longitude": -97.1943701
+    },
+    {
+      "city": "WHARTON",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 29.2454534,
+      "longitude": -96.2291474
+    },
+    {
+      "city": "WICHITA FALLS",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.9137085,
+      "longitude": -98.4933873
+    },
+    {
+      "city": "WINNSBORO",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 32.9573449,
+      "longitude": -95.2902224
+    },
+    {
+      "city": "WYLIE",
+      "state": "TX",
+      "status": "Fully Booked",
+      "latitude": 33.0151201,
+      "longitude": -96.5388789
+    }
+  ]
+}
