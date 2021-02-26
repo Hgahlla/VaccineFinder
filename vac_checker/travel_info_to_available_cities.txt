@@ -1,6 +1,30 @@
+ALICE
+7 hr 34 min
+426.94 miles
+
+BORGER
+7 hr 14 min
+377.98 miles
+
+ELSA
+9 hr 39 min
+539.05 miles
+
+GRAND PRAIRIE
+51 min
+38.97 miles
+
+KINGSVILLE
+7 hr 59 min
+459.2 miles
+
 LUBBOCK
 6 hr 30 min
 352.4 miles
+
+MATHIS
+7 hr 07 min
+409.53 miles
 
 SILSBEE
 5 hr 14 min

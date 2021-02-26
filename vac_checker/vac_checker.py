@@ -10,7 +10,7 @@ def first_run():
 def travel():
     # home address
     home = "3721 Goose Creek Pkwy"
-    travel_to_locations(home, 0, 30)
+    travel_to_locations(home, 1, 0)
 
 def check_availability():
     url = "https://www.cvs.com/immunizations/covid-19-vaccine/immunizations/covid-19-vaccine.vaccine-status.TX.json"
@@ -26,5 +26,5 @@ def check_availability():
 
 if __name__ == "__main__":
     #first_run()
-    #travel()
-    check_availability()
+    travel()
+    #check_availability()

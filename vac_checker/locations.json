@@ -17,7 +17,7 @@
     {
       "city": "ALICE",
       "state": "TX",
-      "status": "Fully Booked",
+      "status": "Available",
       "latitude": 27.7522487,
       "longitude": -98.0697249
     },
@@ -157,7 +157,7 @@
     {
       "city": "BORGER",
       "state": "TX",
-      "status": "Fully Booked",
+      "status": "Available",
       "latitude": 35.6678204,
       "longitude": -101.3973876
     },
@@ -423,7 +423,7 @@
     {
       "city": "ELSA",
       "state": "TX",
-      "status": "Fully Booked",
+      "status": "Available",
       "latitude": 26.2966228,
       "longitude": -97.9931057
     },
@@ -542,7 +542,7 @@
     {
       "city": "GRAND PRAIRIE",
       "state": "TX",
-      "status": "Fully Booked",
+      "status": "Available",
       "latitude": 32.657368000000005,
       "longitude": -97.02846624175038
     },
@@ -661,7 +661,7 @@
     {
       "city": "KINGSVILLE",
       "state": "TX",
-      "status": "Fully Booked",
+      "status": "Available",
       "latitude": 27.5158689,
       "longitude": -97.856109
     },
@@ -801,7 +801,7 @@
     {
       "city": "MATHIS",
       "state": "TX",
-      "status": "Fully Booked",
+      "status": "Available",
       "latitude": 28.0942916,
       "longitude": -97.8274111
     },
