@@ -1,6 +1,6 @@
 import json
 from urllib.request import urlopen
-from geocoding import *
+from geocoding import get_lat_long
 
 
 def get_json(url):
