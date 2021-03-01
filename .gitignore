@@ -1,4 +1,8 @@
 *.pyc
+.venv
+secret.py
 locations.json
 travel_info.txt
 travel_info_to_available_cities.txt
+/.idea
+/tests
