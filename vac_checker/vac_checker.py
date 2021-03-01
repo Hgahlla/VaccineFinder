@@ -17,7 +17,7 @@ def first_run():
 def travel():
     # home address
     home = secret.home
-    travel_to_locations(home, 1, 0)
+    travel_to_locations(home, 0, 30)
 
 
 def check_availability():
@@ -38,5 +38,11 @@ def main():
     check_availability()
 
 
+def test():
+    url = "https://www.cvs.com/immunizations/covid-19-vaccine/immunizations/covid-19-vaccine.vaccine-status.TX.json"
+    data = get_json(url)
+
+
 if __name__ == "__main__":
-    main()
+    #main()
+    test()
