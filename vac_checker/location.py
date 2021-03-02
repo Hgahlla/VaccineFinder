@@ -1,5 +1,6 @@
 from database import CursorFromConnectionPool
 
+
 class Location:
     def __init__(self, city, state, latitude, longitude):
         self.city = city
@@ -10,14 +11,15 @@ class Location:
     @classmethod
     def save_to_db(cls, city, state, lat, long, status):
         with CursorFromConnectionPool() as cursor:
-            cursor.execute("INSERT INTO location (city, state, latitude, longitude, status) VALUES (%s, %s, %s, %s, %s)",
-                           (city, state, lat, long, status))
+            cursor.execute(
+                "INSERT INTO location (city, state, latitude, longitude, status) VALUES (%s, %s, %s, %s, %s)",
+                (city, state, lat, long, status))
 
     @classmethod
     def update_status(cls, city, status):
         with CursorFromConnectionPool() as cursor:
-            cursor.execute("UPDATE location SET status = (%s) WHERE city = (%s) AND status <> (%s)", (status, city, status))
-
+            cursor.execute("UPDATE location SET status = (%s) WHERE city = (%s) AND status <> (%s)",
+                           (status, city, status))
 
     @classmethod
     def load_from_db_by_status(cls, status):
@@ -29,12 +31,3 @@ class Location:
             for city, state, lat, long in row:
                 data.append(cls(city=city, state=state, latitude=lat, longitude=long))
             return data
-
-    @classmethod
-    def from_json(cls, data):
-        loc_list = []
-
-        for loc in data['responsePayloadData']['data']['TX']:
-            loc_list.append(Location(loc['city'], loc['state'], loc['status']))
-
-        return loc_list
