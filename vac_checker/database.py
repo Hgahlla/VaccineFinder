@@ -21,7 +21,7 @@ class Database:
         Database.__connection_pool.closeall()
 
 
-class Cursor:
+class CursorFromConnectionPool:
     def __init__(self):
         self.connection = None
         self.cursor = None
@@ -32,7 +32,7 @@ class Cursor:
         return self.cursor
 
     def __exit__(self, exception_type, exception_value, exception_traceback):
-        # Ex. TypeError, AttributeError, ValueError
+        # This is equivalent to `if exception_value is not None`
         if exception_value is not None:
             self.connection.rollback()
         else:
