@@ -9,6 +9,13 @@ class Location:
         self.longitude = longitude
 
     @classmethod
+    def count_rows(cls):
+        with CursorFromConnectionPool() as cursor:
+            cursor.execute("SELECT COUNT(location_id) FROM location")
+            result = cursor.fetchone()
+            return result[0]
+
+    @classmethod
     def save_to_db(cls, city, state, lat, long, status):
         with CursorFromConnectionPool() as cursor:
             cursor.execute(
