@@ -1,12 +1,16 @@
-import secret as s
 from twilio.rest import Client
+import os
+from dotenv import load_dotenv
+import json
+
+load_dotenv()
 
 
 class MessageClient:
     def __init__(self):
         print('Initializing messaging client')
-        self.ACCOUNT_SID = s.TWILIO_ACCOUNT_SID
-        self.AUTH_TOKEN = s.TWILIO_AUTH_TOKEN
+        self.ACCOUNT_SID = os.environ.get("TWILIO_ACCOUNT_SID")
+        self.AUTH_TOKEN = os.environ.get("TWILIO_AUTH_TOKEN")
         self.twilio_client = Client(self.ACCOUNT_SID, self.AUTH_TOKEN)
         print('Twilio client initialized')
 
@@ -18,9 +22,9 @@ class MessageClient:
         return binding
 
     def send_notification(self, msg):
-        binding = self.get_binding(s.phone_numbers)
+        binding = self.get_binding(json.loads(os.environ.get("PHONE_NUMBERS")))
 
-        notification = self.twilio_client.notify.services(s.TWILIO_SERVICE_SID) \
+        notification = self.twilio_client.notify.services(os.environ.get("TWILIO_SERVICE_SID")) \
             .notifications.create(
             to_binding=binding,
             body=msg.replace(r"\n", "\n")

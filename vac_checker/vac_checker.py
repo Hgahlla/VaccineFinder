@@ -1,10 +1,13 @@
-import secret as s
 from requests_utils import get_json_data
 from database import Database
 from location import Location
 from travel import MapsClient
 from notification import MessageClient
 import datetime
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 # Populate the location database from the cvs pharmacy json data
@@ -64,19 +67,22 @@ def vaccine_finder(request=None):
         else:
             hour = 0
             minute = 30
-        Database.initialise(host=s.gcp_host, database=s.database, user=s.user, password=s.password)
+        Database.initialise(host=os.environ.get("GCP_HOST"), database=os.environ.get("DB_NAME"),
+                            user=os.environ.get("DB_USERNAME"), password=os.environ.get("DB_PASSWORD"))
     # Run program locally
     else:
         hour = 0
         minute = 30
-        Database.initialise(host=s.public_host, database=s.database, user=s.user, password=s.password, port=s.port)
+        Database.initialise(host=os.environ.get("PUBLIC_HOST"), database=os.environ.get("DB_NAME"),
+                            user=os.environ.get("DB_USERNAME"), password=os.environ.get("DB_PASSWORD"),
+                            port=int(os.environ.get("DB_PORT")))
 
     url = "https://www.cvs.com/immunizations/covid-19-vaccine/immunizations/covid-19-vaccine.vaccine-status.TX.json"
     data = get_json_data(url)
     populate_location_db(data)
     update_location_db(data)
     locations = Location.load_from_db_by_status('Available')
-    get_locations_within_travel_time(s.source, locations, hour, minute)
+    get_locations_within_travel_time(os.environ.get("SOURCE"), locations, hour, minute)
 
 
 if __name__ == '__main__':
