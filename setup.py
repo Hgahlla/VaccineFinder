@@ -1,20 +1,27 @@
 from setuptools import setup
 
 setup(
-      name='vac_availability',
-      version='0.1',
-      description='Checks the availability of the covid-19 vaccine within a certain drive time.',
+      name='VaccineFinder',
+      version='1.0',
+      description='An automation tool that notifies users by text messages of CVS pharmacies within a certain drive time that have available appointments for the COVID-19 vaccine',
       url='',
       author='Harmohan Gahlla',
       author_email='harmohangahlla@gmail.com',
       license='MIT',
-      packages=['vac_availability'],
+      packages=['vaccine_finder'],
       zip_safe=False,
-      # install_requires=[
-      #       'requests'
-      #       'json'
-      #       'Nominatim'
-      #       'urlopen'
-      #       'datetime'
-      # ]
+      install_requires=[
+            'certifi',
+            'charset - normalizer',
+            'geographiclib',
+            'geopy',
+            'idna',
+            'psycopg2',
+            'PyJWT',
+            'python - dotenv',
+            'pytz',
+            'requests',
+            'twilio',
+            'urllib3'
+      ]
 )
