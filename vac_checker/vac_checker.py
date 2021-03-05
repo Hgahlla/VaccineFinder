@@ -21,7 +21,7 @@ def populate_location_db(data):
 # Update the status of each location in the location database
 def update_location_db(data):
     for loc in data['responsePayloadData']['data']['TX']:
-        #print(loc['city'] + ", " + loc['state'], loc['status'])
+        print(loc['city'] + ", " + loc['state'], loc['status'])
         Location.update_status(loc['city'], loc['status'])
 
 
@@ -50,16 +50,34 @@ def calculate_travel_info(source, locations):
         print(f"{loc.city}, {loc.state}\n{maps.display_duration()}\n{maps.get_distance()} miles\n")
 
 
-def main():
+# Main function (Entry point for Google's Cloud Functions)
+def vaccine_finder(request=None):
+    # Pass arguments (hour & minute) to Google's Cloud Function
+    if request is not None:
+        request_json = request.get_json(silent=True)
+        if request.args and 'hour' in request.args and 'minute' in request.args:
+            hour = request.args.get('hour')
+            minute = request.args.get('minute')
+        elif request_json and 'hour' in request_json and 'minute' in request_json:
+            hour = request_json['hour']
+            minute = request_json['minute']
+        else:
+            hour = 0
+            minute = 30
+        Database.initialise(host=s.gcp_host, database=s.database, user=s.user, password=s.password)
+    # Run program locally
+    else:
+        hour = 0
+        minute = 30
+        Database.initialise(host=s.public_host, database=s.database, user=s.user, password=s.password, port=s.port)
+
     url = "https://www.cvs.com/immunizations/covid-19-vaccine/immunizations/covid-19-vaccine.vaccine-status.TX.json"
     data = get_json_data(url)
-    Database.initialise(host=s.host, database=s.database, user=s.user, password=s.password, port=s.port)
-
     populate_location_db(data)
     update_location_db(data)
     locations = Location.load_from_db_by_status('Available')
-    get_locations_within_travel_time(s.source, locations, 0, 30)
+    get_locations_within_travel_time(s.source, locations, hour, minute)
 
 
 if __name__ == '__main__':
-    main()
+    vaccine_finder()
