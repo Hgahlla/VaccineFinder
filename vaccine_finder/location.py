@@ -2,11 +2,9 @@ from database import CursorFromConnectionPool
 
 
 class Location:
-    def __init__(self, city, state, latitude, longitude):
+    def __init__(self, city, state):
         self.city = city
         self.state = state
-        self.latitude = latitude
-        self.longitude = longitude
 
     @classmethod
     def count_rows(cls):
@@ -16,11 +14,11 @@ class Location:
             return result[0]
 
     @classmethod
-    def save_to_db(cls, city, state, lat, long, status):
+    def save_to_db(cls, city, state, status):
         with CursorFromConnectionPool() as cursor:
             cursor.execute(
-                "INSERT INTO location (city, state, latitude, longitude, status) VALUES (%s, %s, %s, %s, %s)",
-                (city, state, lat, long, status))
+                "INSERT INTO location (city, state, status) VALUES (%s, %s, %s)",
+                (city, state, status))
 
     @classmethod
     def update_status(cls, city, status):
@@ -32,9 +30,9 @@ class Location:
     def load_from_db_by_status(cls, status):
         with CursorFromConnectionPool() as cursor:
             # Note the (status,) to make it a tuple!
-            cursor.execute("SELECT city, state, latitude, longitude FROM location WHERE status = (%s)", (status,))
+            cursor.execute("SELECT city, state FROM location WHERE status = (%s)", (status,))
             row = cursor.fetchall()
             data = []
-            for city, state, lat, long in row:
-                data.append(cls(city=city, state=state, latitude=lat, longitude=long))
+            for city, state in row:
+                data.append(cls(city=city, state=state))
             return data
